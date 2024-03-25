@@ -1,0 +1,12 @@
+{
+	"firstName":"Paul",
+	"lastName":"Joel",
+	"email":"Joelpaul345@gmail.com",
+	"password":"Jogolo12345"
+}
+{
+	"firstName":"Samuel",
+	"lastName":"Nwene",
+	"email":"nwene.samuel@gmail.com",
+	"password":"R3dbishob22"
+}
