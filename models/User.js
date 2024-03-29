@@ -10,6 +10,11 @@ const userSchema = new mongoose.Schema({
         type: String,
         required: true        
     },
+    country: { type: String, required: true },
+    selfie: { type: String},
+    bvn: { type: String, required: [true, "Value should not be less than 10"] },
+    securityQuestion: { type: String, required: true },
+    securityAnswer: { type: String, required: true },
     email: {
         type: String,
         required: [true, "Please insert a mail"],
