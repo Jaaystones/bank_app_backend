@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .vertical {
+    writing-mode: vertical-lr;
+    direction: rtl;
+  }
+}
